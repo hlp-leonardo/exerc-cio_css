@@ -109,19 +109,46 @@ section h2, .articles article {
 }
 
 #technology {
-    background-color: rgb(30, 30, 245);
+    background-color: rgba(30, 30, 245, 0.877);
     color: azure;
 }
 
 #technology .articles article a {
     background-color: rgba(128, 128, 128, 0.89);
+    border-radius: 25%;
+}
+
+#technology .articles article img {
+    border-color: rgba(128, 128, 128, 0.89);
+    border-style: double;
+}
+
+#technology .articles article img:hover,
+#technology .articles article a:hover {
+    box-shadow: 0 0 8px 1px rgba(128, 128, 128, 0.89);
 }
 
 #entertainment {
-    background-color: rgba(187, 47, 47, 0.959);
+    background-color: rgba(236, 16, 16, 0.74);
 }
 
 #entertainment .articles article a {
-    background-color: rgb(238, 225, 44);
+    background-color: rgb(255, 217, 0);
     color: black;
+    border-radius: 25%;
+}
+
+#entertainment .articles article img {
+    border-color: rgb(255, 217, 0);
+    border-style: double;
+}
+
+#entertainment .articles article img:hover,
+#entertainment .articles article a:hover {
+    box-shadow: 0 0 8px 1px rgb(255, 217, 0);
+}
+
+#entertainment .articles article h3:hover,
+#entertainment .articles article p:hover {
+    color: rgb(255, 217, 0);
 }
